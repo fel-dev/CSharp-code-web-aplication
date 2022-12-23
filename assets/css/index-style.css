@@ -11,14 +11,16 @@ li {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;    
 }
 a {
     text-decoration: none;
     color: #000;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 10px;
 }
-a:hover {
+li:hover {
     background-color: #4caf50;
     color: rgb(0, 255, 34);
+    border: 1px solid  rgb(0, 0, 0);    
+    transition: all 0.3s ease;
 }
