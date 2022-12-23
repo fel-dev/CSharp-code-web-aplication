@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,23 @@
     <title>About | Firsted step in C#</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/error-style.css">
+    <style>
+        #social-div {
+            background-color: lightblue;
+            margin-top: 20px;
+            padding: 20px 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        #social-div img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Firsted step in C#</h1>
@@ -22,12 +39,23 @@
     </nav>
     <main>
         <h1>Hello!</h1>
-        <p>My name is Felipe, I am stuyind Systems and Analysis and Development of Systems at PUC Minas, and I am starting to learn C#.
-        I'm really excited to learn more about this language, and I hope to be able to use it in my career.</p>
-        I hope you enjoy this web page</p>
+        <p>My name is <a id="link">Felipe Carneiro</a>, I am stuyind Systems and Analysis and Development of Systems at PUC Minas, and I am starting to learn C#.</p>
+        <p>I'm really excited to learn more about this language, and I hope to be able to use it in my career.</p>
+        <br>
+        <p>I hope you enjoy this web page</p>        
+        <div id="social-div">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/felipe-carneiro-dev" target="_blank">
+                <img src="./img/social/linkedin.png" alt="Linkedin">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://gist.github.com/fel-dev" target="_blank">
+                <img src="./img/social/github.png" alt="Github">
+            </a>
+        </div>
     </main>
     <footer>
         <p>Created by Felipe</p>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
