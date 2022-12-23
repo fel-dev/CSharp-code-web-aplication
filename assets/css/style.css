@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #444;
+    color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Header */
+header{
+    background: #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px #4caf50;
+}
+
+/* Navegation bar */
+nav{
+    /* flex: 1; */
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #ccc;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+nav ul li a.active{
+    background: #4caf50;
+    color: #fff;
+}
+nav ul li a:hover{
+    background: #4caf50;
+    color: #fff;
+}
+/* Main */
+main{
+    max-width: 800px;
+    margin: auto auto;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+}
+
+/* Footer */
+footer{
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+    font-size: 14px;
+    box-shadow: 0 -2px 4px #4caf50;
+}
+
+/* Content */
+.content{
+    margin: 20px 0;
+}
+.content h1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.content p{
+    line-height: 25px;    
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.content h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content ol{
+    margin-left: 0px;
+    padding: 10px 0 10px 30px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, #4caf50, #af684c) 1; 
+}
+.content ul li{
+    margin-bottom: 8px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.content a{
+    color: #4caf50;
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.content img{
+    max-width: 100%;
+    margin: 20px 0;
+    display: block;
+}
+pre code {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+strong{
+    color: #af684c;
+}
