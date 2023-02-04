@@ -35,8 +35,14 @@
       <ul>
         <li><a href="#article-1">Apresentação</a></li>
         <li><a href="#article-2">Introdução</a></li>
-        <li><a href="#article-3">Exercício - “Olá, Mundo!”</a></li>
-        <li><a href="#article-4">Resumo</a></li>   
+        <li>
+          <a href="#article-3">Exercício - “Olá, Mundo!”</a>
+          <ul>
+            <li><a href="#article-etapa-web">Web Browser</a></li>
+          </ul>
+            <li><a href="#article-4">Configurar o ambiente local</a></li>          
+        </li>
+        <li><a href="#article-last">Resumo</a></li>
       </ul>
     </aside>
 
@@ -91,7 +97,7 @@
 
       <p>Há uma tradição antiga entre os desenvolvedores de software de imprimir a frase "Olá, Mundo!" em uma linha de comando ou uma janela de console. Como você verá, você pode aprender muito sobre programação e a linguagem de programação C# com este simples exercício</p>
 
-      <b>Etapa 1: inserir o código no Editor do .NET</b>
+      <b id="article-etapa-web">Etapa: inserir o código no Editor do .NET pelo navegador</b>
 
       <p>O Editor do .NET e o painel de saída fornecem uma ótima experiência no navegador que é perfeita para essa abordagem do tutorial. O Editor do .NET está localizado no lado direito desta página da Web. O painel de saída está abaixo dele</p>
 
@@ -100,7 +106,9 @@
       <p>Insira este código no Editor do .NET à direita</p>
       
       <!-- colocar um link para ir para editor do .NET -->
-      <p><a target="_blank"  href="https://dotnet.microsoft.com/pt-br/learn/dotnet/in-browser-tutorial/1">https://dotnet.microsoft.com/pt-br/learn/dotnet/in-browser-tutorial/1</a>.</p>
+      <p><a target="_blank"  href="https://learn.microsoft.com/pt-br/training/modules/csharp-write-first/2-exercise-hello-world">sharp microsoft learn exercises</a>.</p>
+      <p><a href="https://hub.gke2.mybinder.org/user/dotnet-try-samples-1uyxhodw/notebooks/hello-csharp/hello-world.ipynb">mybinder</a></p>
+
 
       <p>Para inserir o código, clique no Editor do .NET e digite o código abaixo. Se você não estiver familiarizado com a linguagem C#, você pode precisar de um pouco de tempo para se acostumar com a sintaxe. Não se preocupe, você se acostumará com a sintaxe C# rapidamente. Por enquanto, você deve apenas inserir o código abaixo</p>
       
@@ -112,14 +120,37 @@
       </pre>
 
       <p>Explicaremos como e por que isso funciona em breve. Mas primeiro, você deve vê-lo em execução e conferir se não o inseriu incorretamente. Para fazer isso, você executará o código.</p>
-
-      <strong>Observação</strong>
-
       <p>Incentivamos você a inserir essa linha de código por conta própria. Inserir o código por conta própria reforça sua capacidade de memória e ajuda a obter insights que você não obteria de outra forma.</p>
 
     </article>
 
     <article id="article-4">
+      <h2>Configurar o ambiente local</h2>
+      <p><a href="https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/tutorials/local-environment" target="_blank" rel="noopener noreferrer">Pode seguir os passos diretamente do Tutorial oficial no MS Learn</a></p>
+      <p>A primeira etapa para executar um tutorial em seu computador é configurar um ambiente de desenvolvimento. Escolha uma das seguintes alternativas:
+        <ul>
+          <li>Para usar a CLI do .NET e sua escolha de editor de texto ou código, consulte o tutorial do .NET Hello, <a target="_blank" href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro">World em 10 minutos</a>. O tutorial tem instruções para configurar um ambiente de desenvolvimento no Windows, Linux ou macOS.</li>
+          <li>Para usar a CLI e o Visual Studio Code do .NET, instale o <a href="https://dotnet.microsoft.com/download" target="_blank">SDK do .NET</a> e o <a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a>.</li>
+          <li>Para usar o Visual Studio 2019, consulte <a target="_blank" href="https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console">Tutorial: Criar um aplicativo de console C# simples no Visual Studio</a>.</li>
+        </ul>
+      </p>
+      <p>Se você usar o Visual Studio 2019 para estes tutoriais, escolherá uma seleção de menu do Visual Studio quando um tutorial o orientar a executar um destes comandos da CLI:
+        <ul>
+          <li>File>New>Project cria um aplicativo.
+            <ul>
+              <li>O modelo de projeto <code>Console Application</code> é recomendado.</li>
+              <li>Você terá a opção de especificar uma estrutura de destino. Os tutoriais abaixo funcionam melhor ao direcionar o .NET 5 ou superior.</li>
+            </ul>
+            <li>Build>Build Solution cria o executável.</li>
+            <li>Debug>Start Without Debugging executa o executável.</li>
+          </li>
+        </ul>
+      </p>
+    </article>
+
+      
+
+    <article id="article-last">
       <h2>Resumo</h2>
       <p><p>Esta série de vídeos do Canal 9 é uma ótima introdução à linguagem C#. Você pode assistir a cada vídeo individualmente ou assistir a todos os vídeos em uma única sessão. A série de vídeos C# 101 é uma ótima maneira de aprender sobre a linguagem C# e a plataforma .NET.</p></p>
       <b>Saiba mais com uma série de vídeos do Canal 9 </b>
@@ -138,6 +169,8 @@
   <!-- estrutura rodapé padrão -->
   <footer>
     <p>Created by Felipe</p>
+    <!-- powered by microsoft learn -->
+    <p>Powered by <a href="https://docs.microsoft.com/pt-br/learn/?WT.mc_id=Educationalcsharp-c9-scottha" target="_blank" rel="noopener noreferrer">Microsoft Learn</a></p>
 </footer>
 
 <script src="../js/btn.js"></script>

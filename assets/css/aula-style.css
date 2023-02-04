@@ -60,6 +60,22 @@ aside ul li {
     margin-bottom: 10px;
 }
 
+pre code {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+code{
+    background: #444;
+    color: #fff;
+    padding: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
 /* Botão fixado */
 #topBtn {
     position: fixed;
