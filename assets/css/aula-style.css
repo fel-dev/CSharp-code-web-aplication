@@ -1,0 +1,84 @@
+article {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;    
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+article h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+article h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(148, 2, 2);
+}
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: justify;
+}
+article p a {
+    color: blue;
+    text-decoration: none;
+}
+article p a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+article ul {
+    margin-left: 50px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+/* aside ficará do lado esquerdo */
+aside {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+aside h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+/* Botão fixado */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#topBtn:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
