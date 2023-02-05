@@ -107,7 +107,7 @@
       
       <!-- colocar um link para ir para editor do .NET -->
       <p><a target="_blank"  href="https://learn.microsoft.com/pt-br/training/modules/csharp-write-first/2-exercise-hello-world">sharp microsoft learn exercises</a>.</p>
-      <p><a href="https://hub.gke2.mybinder.org/user/dotnet-try-samples-1uyxhodw/notebooks/hello-csharp/hello-world.ipynb">mybinder</a></p>
+      <p><a href="https://mybinder.org/v2/gh/dotnet/try-samples/main?filepath=hello-csharp%2Fhello-world.ipynb">mybinder</a></p>
 
 
       <p>Para inserir o código, clique no Editor do .NET e digite o código abaixo. Se você não estiver familiarizado com a linguagem C#, você pode precisar de um pouco de tempo para se acostumar com a sintaxe. Não se preocupe, você se acostumará com a sintaxe C# rapidamente. Por enquanto, você deve apenas inserir o código abaixo</p>
@@ -125,24 +125,46 @@
     </article>
 
     <article id="article-4">
+
       <h2>Configurar o ambiente local</h2>
+
       <p><a href="https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/tutorials/local-environment" target="_blank" rel="noopener noreferrer">Pode seguir os passos diretamente do Tutorial oficial no MS Learn</a></p>
+
       <p>A primeira etapa para executar um tutorial em seu computador é configurar um ambiente de desenvolvimento. Escolha uma das seguintes alternativas:
+
         <ul>
           <li>Para usar a CLI do .NET e sua escolha de editor de texto ou código, consulte o tutorial do .NET Hello, <a target="_blank" href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro">World em 10 minutos</a>. O tutorial tem instruções para configurar um ambiente de desenvolvimento no Windows, Linux ou macOS.</li>
           <li>Para usar a CLI e o Visual Studio Code do .NET, instale o <a href="https://dotnet.microsoft.com/download" target="_blank">SDK do .NET</a> e o <a target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a>.</li>
           <li>Para usar o Visual Studio 2019, consulte <a target="_blank" href="https://learn.microsoft.com/pt-br/visualstudio/get-started/csharp/tutorial-console">Tutorial: Criar um aplicativo de console C# simples no Visual Studio</a>.</li>
         </ul>
       </p>
+
+      <h2>Fluxo de desenvolvimento de aplicativos básico</h2>
+
+      <p>As instruções nesses tutoriais pressupõem que você esteja usando a CLI do .NET para criar, compilar e executar aplicativos. Você usará os comandos a seguir:</p>
+        
+      <p>
+          <ul>
+            <li><code>dotnet new</code> cria um aplicativo. Este comando gera os arquivos e ativos necessários para o seu aplicativo. Todos os tutoriais de introdução ao C# usam o tipo de aplicativo console. Depois de conhecer as noções básicas, você poderá expandir para outros tipos de aplicativo.</li>
+            <li><code>dotnet build</code> cria o executável.</li>
+            <li><code>dotnet run</code> executa o executável.</li>
+          </ul>
+      </p>
+
       <p>Se você usar o Visual Studio 2019 para estes tutoriais, escolherá uma seleção de menu do Visual Studio quando um tutorial o orientar a executar um destes comandos da CLI:
         <ul>
+
           <li>File>New>Project cria um aplicativo.
+
             <ul>
               <li>O modelo de projeto <code>Console Application</code> é recomendado.</li>
+              
               <li>Você terá a opção de especificar uma estrutura de destino. Os tutoriais abaixo funcionam melhor ao direcionar o .NET 5 ou superior.</li>
             </ul>
+
             <li>Build>Build Solution cria o executável.</li>
             <li>Debug>Start Without Debugging executa o executável.</li>
+
           </li>
         </ul>
       </p>
